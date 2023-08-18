@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WayToNikkah | No.1 Muslim Matrimonial Site | Find Your Life Partner</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <header class="header-section">
+    <div class="row col-12 col-lg-12">
+      <div class="col-4 col-lg-4 img1 ">
+        <img class="img-logo" src="Images/roundmoblogo.webp" alt="wayto nikkah">
+      </div>
+      <div class="col-3 col-md-4 col-lg-4 p-3 ">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid ">
+
+            <button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ">
+                <li class="nav-item  ">
+                  <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Contact us</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="col-5 col-md-4 col-lg-4 img2  ">
+        <img class="img-logo" src="Images/roundmoblogo.webp" alt="wayto nikkah">
+      </div>
+      <div class="col-4 col-md-4 col-lg-4 p-4">
+
+        <a href="#index.html" class="text-white" style="text-decoration: none;">Already a member?</a>
+        <button class="login-btn" type="button" class="btn btn-light">Login</button>
+
+      </div>
+    </div>
+  </header>
+
+  <section class="second-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 d-none d-lg-block">
+          <img src="Images/first img.png " class="img-fluid ml-2 side-img" alt="image">
+        </div>
+
+        <div class="col-12  col-lg-7 ">
+
+          <h1>Join No.1 Muslim Matrimonial</h1>
+          <div class="form-container bg-white p-4 ">
+
+            <div class="row p-3">
+
+              <head class="col-lg-12">
+                <p class="form-head"> Register Now-its free!</p>
+
+
+                <form id="signup-form">
+                  <div class="form-row">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class=" form-group " style="width: 100%;">
+                          <label class="col-form-label col-form-label-sm" for="inputState"  >Create profile for*</label>
+                          <select id="inputState"  required class="form-control">
+                            <option value="" selected>select</option>
+                            <option value="myself">myself</optio  n>
+                            <option value="Daughter">Daughter</option>
+                            <option value="son">son</option>
+                            <option value="Sister">Sister</option>
+                            <option value="Brother">Brother</option>
+                            <option value="friend">friend</option>
+                            <option value="Relative">Relative</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 ">
+                        <div class="form-group " style="width: 100%;">
+                          <label class="col-form-label col-form-label-sm" for="inputGroom">Bride/Groom Name*</label>
+                          <input type="text" class="form-control" placeholder="Bride/Groom Name" required />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class=" form-group row">
+                          <label class="col-form-label col-form-label-sm" for="inputPhone" >Phone Number*</label>
+
+                          <div class="col-lg-5 ">
+                            <select id="inputPhone" class="form-control" required>
+                              <option value="" selected>ISD</option>
+
+                            </select>
+                          </div>
+
+                          <div class="col-lg-7 ">
+
+                            <input type="tel" placeholder="phone number" class=" form-control" required>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6">
+                        <div class="row">
+                          <label class="col-form-label col-form-label-sm" for="inputgender">Gender*</label>
+
+                          <div class="form-group">
+
+                            <div class="form-check form-check-inline ">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                value="option1" required>
+                              <label class="form-check-label" id="gender" for="inlineRadio1">Male</label>
+                            </div>
+                            <div class="form-check form-check-inline ">
+                              <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2">
+                              <label class="form-check-label"  id="gender" for="inlineRadio2">Female</label>
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-6">
+
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label " for="exampleCheck1">By clicking register free, you accept our
+                            <a href="#"> T&C </a>and <a href="#"> Privacy Policy</a></label>
+                        </div>
+                        <div class="form-check ">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Receive notification and promotional
+                            messages</label>
+                        </div>
+
+
+
+
+
+
+                      </div>
+                      <div class="col-lg-6 mt-5">
+
+
+                        <button id="btnRegister" class="button primary-button  button-submit" type="submit">Register Free</button>
+
+                      </div>
+
+                    </div>
+
+
+
+                </form>
+
+
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-head">
+            Get.Ready.With.Us
+          </h2>
+          <img class=" love-line" src="Images/love line.svg" alt="love-line">
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+  </section>
+  <section>
+    <div class="container  ">
+      <div class="row">
+        <div class="col-lg-3 welcome-card">
+          <img class="img-fluid " src="Images/no1 trusted.svg">
+          <h5>No.1& Trusted<br>Matrimonial service</h5>
+          <p>
+            our largest number of profiles<br> increases your chance
+          </p>
+        </div>
+        <div class="col-lg-3  welcome-card">
+          <img class="img-fluid " src="Images/no1 trusted.svg">
+          <h5>No Charge For<br>Registration</h5>
+          <p>
+            Registering with us is completely free <br>and simple
+          </p>
+        </div>
+        <div class="col-lg-3  welcome-card">
+          <img class="img-fluid " src="Images/no1 trusted.svg">
+          <h5>Manual Screening<br>and Validation</h5>
+          <p> Our experts manually screen and<br> validate each profile.
+          </p>
+        </div>
+        <div class="col-lg-3  welcome-card">
+          <img class="img-fluid " src="Images/no1 trusted.svg">
+          <h5>Best Data Security<br>and Privacy</h5>
+          <p>
+            We follow best practices to keep your<br> data safe.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="match-section">
+  <div class="container ">
+    <div class="row ">
+      <div class="col-lg-6">
+        <h1 class="text-head">Match with genuine folks with complete security!</h1>
+        <p>Way to Nikah is India’s most trusted matrimonial site which has helped thousands
+           of people like you to find their perfect life partner.</p>
+      </div>
+<div class="col-lg-6 ">
+<img src="Images/match.svg" alt="match-image">
+</div>
+
+
+    </div>
+  </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="img-fluid"  src="Images/free-chat.svg" alt="free-chat-image">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="text-head">
+            Free chat and video calls
+          </h1>
+          <p>Use our free chat messenger and video calling services to talk to your prospect.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="downloadApp-section">
+   <div class="conatiner">
+     <div class="row">
+       <div class="col-12 col-lg-6">
+<img class="img-fluid" src="Images/happiness.png" alt="download-image">
+     </div>
+    
+     <div class=" col-12 col-lg-6 text-white download-right">
+       <h2>Happiness is just an app away!</h2>
+       <p>Meet your Partner with WAY TO NIKAH Apps.
+        <br>From Any Time and Any Where...</p>
+        <h6>Download Our App</h6>
+        <img src="Images/appstore.png" alt="Appstore">
+        <img src="Images/googleplay.webp" alt="Google play">
+   
+    </div>
+    </div>
+   </div>
+
+  </section>
+
+  <section class="para-section">
+    <div class="container">
+    <div class="row">
+      <div class=" col-12 col-lg-6 mt-5">
+<h1  class="text-head">Find your Special SomeOne from Waytonikah.com</h1>
+<p>Waytonikah.com has been solely developed for helping the Muslim community in all over India to find suitable Muslim brides and grooms. We are a complete Muslim Matrimony site where all can easily find their life partners without any hassles.
+
+</p>
+      </div>
+      <div class=" col-12 col-lg-6  mt-5">
+<h1 class="text-head">Why Choose Waytonikah</h1>
+<p>Waytonikah.com team has the best Relationship Managers from the field, who will be available to you for offering assistance, so that you could make the right choice. We will always be there to help you until you find the perfect match. Our relationship managers will make it easier for you to take decisions and end up with the right life partner. Our users can get a wide range of profiles according to the preferences. Our dedicated customer care will always help to find your life partner.
+
+</p>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="footer-top">
+   <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img  class="img-fluid" src="Images/phone.svg" alt="phone">
+        <p>helpline 24x7</p>
+        <h6>+91 8593 86 86 86</h6>
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" src="Images/mail.svg" alt="mail">
+        <p>Send Your Queries</p>
+        <h6>info@waytonikah.com</h6>
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" src="Images/location.svg" alt="location">
+        <p>Head Office</p>
+        <h6>Calicut , Kerala, India</h6>
+      </div>
+     </div>
+   </div>
+
+  </section>
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class=" col-12  col-md-12 col-lg-4">
+<img class="img-fluid" src="Images/roundmoblogo.webp" alt="profile">
+<p>Way to Nikah is one of the prominent matrimonial sites in India. We understand the importance of marriage in our Indian society and hence blend technology with tradition efficiently for a secure matchmaking experience to all our members.
+
+</p>
+
+        </div>
+       
+        <div class=" col-md-6 col-lg-4">
+          <h2>Explore</h2>
+          
+          <ul>
+<li>Home</li>
+<li>About us</li>
+<li>Login</li>
+<li>Register</li>
+<li>Sitemap</li>
+<li>Contact us</li>
+          </ul>
+        
+     
+       
+          <ul class="second-ul">
+            <li>Blog</li>
+            <li>Support</li>
+            <li>Terms and Conditions</li>
+            <li>privacy and policy</li>
+            <li>Abaya online</li>
+            
+                      </ul>
+        </div>
+        <div class=" col-md-6 col-lg-4">
+          <h2 >Download our app</h2>
+          <img class="img-fluid" src="Images/appstore.png">
+          <img  class="img-fluid" src="Images/googleplay.webp">
+          <h2 style="margin-top: 10px;">Follow Us</h2>
+          <ul class="social-list">
+            <li>
+              <i class="fa-brands fa-facebook"></i>
+            </li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <p class="copy">© 2023 WAY TO NIKAH. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
